@@ -1,0 +1,330 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* header */
+
+.header-section{
+    background-color: #f9f9f9;
+}
+.header-content{
+    padding: 15px 0px;
+}
+.logo-part{
+    width: 35%;
+    float: left;
+}
+.logo-part img{
+    width: 100;
+}
+.menu-part{
+    width: 65%;
+    float: left;
+    text-align: center;
+}
+.menu-part nav ul{
+    list-style: none;
+}
+.menu-part nav ul li{
+    display: inline-block;
+    margin-left: -4px;
+    margin-right: 50px;
+}
+.menu-part nav ul li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: black;
+    transition: 0.5s;
+}
+
+.menu-part nav ul li a:hover{
+    background-color: rgba(235, 233, 233, 0.432);
+    border-radius: 2px;
+    box-shadow: 0px 0px 4px #15a4fa;
+}
+
+/* banner section */
+
+.banner-section{
+    background: url(./banner-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 25px 0px;
+}
+.banner-content{
+    padding-top: 175px;
+    width: 600px;
+    margin: 0px auto;
+    text-align: center;
+}
+.banner-content h1{
+    font-size: 60px;
+    color: white;
+    margin: 10px 0px;
+}
+.banner-content span{
+    display: block;
+    width: 440px;
+    border-bottom: 2px solid #15a4fa;
+    margin: 10px auto;
+}
+.banner-content p{
+    color: white;
+    margin: 30px 0px 50px;
+}
+
+.banner-content .btn button{
+    background: transparent;
+    border: 1px solid #15a4fa;
+    text-transform: uppercase;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    transition: 00.5s;
+}
+
+.banner-content .btn button:hover{
+    box-shadow: 0px 0px 4px #15a4fa;
+    cursor: pointer;
+}
+
+.banner-content .ico i{
+    width: 30px;
+    font-size: 24px;
+    color: white;
+    margin: 125px 0px 30px;
+}
+
+/* about section */
+
+.about-section{
+    padding: 40px 0px;
+    background-color: #f6f9f9;
+}
+.about-content{
+    text-align: center;
+    padding: 10px;
+}
+.about-content h1{
+    color: #2d3950;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.about-content p{
+    color: #999999;
+    line-height: 30px;
+    font-size: 20.5px;
+}
+
+/* featured section */
+
+.featured-section{
+    background-color: #ffffff;
+    padding: 50px 0px;
+}
+
+.featured-content{
+    padding: 10px;
+}
+
+.one-div{
+    width: 31.3333%;
+    margin-right: 2%;
+    float: left;
+    text-align: center;
+}
+.one-div i{
+    background: #48baff;
+    width: 100px;
+    padding: 30px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    margin: 30px 0px;
+}
+.one-div h3{
+    color: #2d3950;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.one-div p{
+    color: #adadad;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+/* portfolio section */
+
+.portfolio-section {
+    background-color: #f9f9f9;
+    padding: 40px 0px;
+}
+
+.portfolio-content{
+    width: 1140px;
+    margin: 0px auto;
+}
+.portfolio-content h1{
+    text-align: center;
+    color: #2d3950;
+    font-size: 41px;
+    font-weight: 500;
+    margin: 10px 0px 15px;
+}
+.portfolio-content h3{
+    text-align: center;
+    color: #909090;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 13px 0px 82px;
+}
+
+.teo-part{
+    float: left;
+    width: 31.333%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    position: relative;
+}
+
+.teo-part img{
+    width: 100%;
+    border-radius: 5px; 
+    display: block;
+}
+
+/* contact section */
+
+.stay-section{
+    background: linear-gradient(#31394c9c, rgba(44, 55, 76, 0.623), #2c364b, #354054), url(./stay-with-us-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.stay-contact-form{
+    width: 500px;
+    margin: 0px auto;
+}
+.stay-contact-form h1{
+    color: white;
+    font-weight: 400;
+    font-size: 41px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.stay-contact-form p{
+    color: #999999;
+    font-size: 15px;
+    margin: 0px 0px 40px;
+}
+.stay-contact-form form{}
+.stay-contact-form input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #999999;
+}
+.stay-contact-form textarea{width: 100%;border: none;outline: none;padding: 10px;margin-bottom: 15px;border-radius: 5px;resize: none;background: transparent;border: 1px solid #999999;}
+
+.float{
+    margin-bottom: 30px;
+}
+.float .float-left{
+    text-align: left;
+    width: 50%;
+    float: left;
+    margin-top: 14px;
+}
+.float .float-left input{
+    width: 20px;
+    display: inline-block;
+    background: transparent;
+    margin-right: 10px;
+}
+.float .float-left p{
+    width: 160px;
+    display: inline-block;
+    font-size: 15px;
+    color: #f9f9f9;
+}
+.float .float-right{
+    width: 50%;
+    float: left;
+}
+.float .float-right button{
+    background: transparent;
+    border: 1px solid #15a4fa;
+    padding: 12px 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #f9f9f9;
+    font-weight: 400;
+}
+
+/* footer section */
+
+.footer{
+    padding: 30px 0px;
+}
+
+.footer-content .footer-content-left{
+    width: 40%;
+    float: left;
+    margin-top: 16px;
+}
+.footer-content .footer-content-left p{
+    text-align: center;
+    font-size: 15px;
+    color: #999999;
+}
+
+.footer-content-right{
+    width: 60%;
+    float: right;
+}
+.footer-content-right ul{
+    list-style: none;
+    text-align: center;
+}
+.footer-content-right ul li{
+    display: inline-block;
+}
+.footer-content-right ul li a{
+    display: inline-block;
+}
+.footer-content-right ul li a i{
+    width: 50px;
+    background-color: #15a4fa;
+    padding: 15px;
+    color: #f9f9f9;
+}
